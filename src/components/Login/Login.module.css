@@ -1,0 +1,22 @@
+.login {
+    width: 200px;
+}
+
+.loginInput {
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    height: 20px;
+    width: 100%;
+}
+
+.remember {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    text-align: center;
+    line-height: 25px;
+}

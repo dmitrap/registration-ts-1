@@ -3,7 +3,7 @@ interface IInitialState {
 }
 
 const initialState: IInitialState = {
-    title: 'Login from reducer'
+    title: 'Login'
 };
 
 const loginReducer = (state: IInitialState = initialState, action: any): IInitialState => {

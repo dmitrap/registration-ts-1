@@ -1,11 +1,11 @@
 import React from 'react';
-import './../App.css';
-import Login from "./Login";
+import '../../App.css';
+import Login from "../Login/Login";
 import {Route} from 'react-router-dom';
-import Registration from "./Registration";
-import RecoveryPassword from './RecoveryPassword';
-import Profile from './Profile';
-import Header from "./Header";
+import Registration from '../Registration/Registration';
+import RecoveryPassword from "../RecoveryPassword/RecoveryPassword";
+import Profile from "../Profile/Profile";
+import Header from "../Header/Header";
 
 const Main: React.FC = () => {
     return (
