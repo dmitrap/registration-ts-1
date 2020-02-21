@@ -1,12 +1,25 @@
 import React from 'react';
 import './../App.css';
+import {connect} from "react-redux";
+import {AppStateType} from "../redux/store";
 
-const Login: React.FC = () => {
-    return (
-        <div>
-            Login
-        </div>
-    );
-};
+interface IProps {
+    title: string
+}
 
-export default Login;
+class Login extends React.Component<IProps> {
+    render() {
+        return (
+            <div>
+                {this.props.title}
+            </div>
+        );
+    }
+}
+
+const mstp = (state: AppStateType) => ({
+    title: state.login.title
+});
+
+const ConnectedLogin = connect(mstp, {})(Login);
+export default ConnectedLogin;
