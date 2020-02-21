@@ -5,6 +5,8 @@ import {HashRouter} from "react-router-dom";
 import {Provider} from "react-redux";
 import store from "./redux/store";
 
+//from feature/login branch
+
 const App: React.FC = () => {
     return (
         <div className="App">
