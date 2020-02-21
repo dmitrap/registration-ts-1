@@ -55,6 +55,17 @@
   background: black;
 }
 
+.activeLink:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 20px;
+  height: 1px;
+  width: 100%;
+  background: black;
+}
+
 .content {
   display: flex;
   justify-content: center;
