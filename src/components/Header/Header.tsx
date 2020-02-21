@@ -1,7 +1,7 @@
 import React from 'react';
-import './../App.css';
-import logo from "../logo.svg";
-import Menu from "./Menu";
+import '../../App.css';
+import logo from "./../../logo.svg";
+import Menu from "../Menu/Menu";
 
 const Header: React.FC = () => {
     return (
